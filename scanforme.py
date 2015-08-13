@@ -18,10 +18,12 @@ def main():
 			#p = str(p)
 			#st = "ip."+i+"."+k+"."+p
 			#print(st)
+			
     for j in range(1,255):
         p = str(j)
         st = "ip.ip.ip."+p # instead of word "ip" you can replace an ip netwrok for ex: 192.168.1,that scan /24 network
         ports = [21,80,443,22,445,23,3389] #This way we can specipfy any number of ports want to look in
+        #for port in range(1,1025) for scanning 1 to 1024
         for port in ports:
             #port = 21
             ip = st
