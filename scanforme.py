@@ -34,7 +34,7 @@ def main():
                 baner = baner.lstrip()
                 baner = baner.rstrip()
                 port = str(port)
-                print('[+]' + ip + ' : ' + port+' : '+ baner.strip('\n') + ' : '+k)            
+                #print('[+]' + ip + ' : ' + port+' : '+ baner.strip('\n') + ' : '+k)            
                 feedscan(ip,port,baner,k)
 def bangrab(ip,port):
     try:
